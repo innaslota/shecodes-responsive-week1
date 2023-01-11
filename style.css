@@ -30,7 +30,7 @@ h3 {
 .navigation {
   display: flex;
   justify-content: center;
-  margin-top: 40px;
+  margin: 40px auto;
 }
 
 .button {
@@ -79,8 +79,42 @@ h3 {
   position: relative;
   left: 50px;
   text-decoration: none;
+  text-align: left !important;
 }
 
 .contact-me h2 {
   margin: 0;
+}
+
+.container a {
+  padding: 20px 15px;
+  border: 1px solid;
+  border-radius: 4px;
+  margin: 0px;
+  text-decoration: none;
+  background-color: var(--main-color);
+  border-color: var(--main-color);
+  color: var(--secondary-color);
+  box-shadow: var(--box-shadow);
+}
+
+a:hover {
+  color: #0a58ca;
+}
+
+.fs-6 {
+  font-size: 18px !important;
+}
+
+.mb-2 {
+  margin-bottom: 16px !important;
+}
+
+.link {
+  max-width: fit-content;
+}
+
+.regulator {
+  display: flex;
+  justify-content: space-evenly;
 }
